@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jeux de dé - Challenge</title>
+  </head>
+  <body>
+    <h1>Jeu de dé à 6 faces : Deviner un nombre !</h1>
+    <p>
+      L'ordinateur va lancer un dé à 6 face. A vous de devinez le chiffre obtenu
+      ! <br />
+      Pas de panique, l'ordinateur va vous guider.
+    </p>
+    <img src="dice.jpg" alt="C'est un joli dé rouge" />
+
+    <div class="container">
+      <form class="try-submit">
+        <h2>Devinez !</h2>
+        <input id="essai" type="text" placeholder="Essai" />
+        <input id="submit" type="button" value="Send" />
+      </form>
+      <p class="reponse" id="reponse"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
